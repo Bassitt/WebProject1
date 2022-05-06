@@ -9,8 +9,8 @@ app.config["DEBUG"] = True
 # and add decorators to define the appropriate resource locators for them.
 
 @app.route('/')
-@app.route('/hello')
-def hello():
+@app.route('/exer')
+def exer():
     return '''
 <html>
   <head>
